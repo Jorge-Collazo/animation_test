@@ -1,0 +1,229 @@
+@keyframes ripple{
+    1%, 15%, 29%, 43%, 57%, 71%, 85%, 99%{background: radial-gradient(rgb(130, 183, 255), rgb(120, 183, 255), rgb(110, 183, 255),
+        rgb(100, 183, 255),rgb(90, 183, 255), rgb(80, 183, 255), rgb(70, 183, 255), rgb(60, 183, 255), rgb(50, 183, 255), 
+        rgb(40, 183, 255), rgb(30, 183, 255), rgb(20, 183, 255), rgb(10, 183, 255), rgb(0, 183, 255));}
+
+    2%, 16%, 30%, 44%, 58%, 72%, 86%, 100%{background: radial-gradient(rgb(0, 183, 255),rgb(130, 183, 255), rgb(120, 183, 255), 
+        rgb(110, 183, 255), rgb(100, 183, 255),rgb(90, 183, 255), rgb(80, 183, 255), rgb(70, 183, 255), rgb(60, 183, 255), 
+        rgb(50, 183, 255), rgb(40, 183, 255), rgb(30, 183, 255), rgb(20, 183, 255), rgb(10, 183, 255));}
+
+    3%, 17%, 31%, 45%, 59%, 73%, 87%{background: radial-gradient(rgb(10, 183, 255), rgb(0, 183, 255),rgb(130, 183, 255), 
+        rgb(120, 183, 255), rgb(110, 183, 255), rgb(100, 183, 255),rgb(90, 183, 255), rgb(80, 183, 255), rgb(70, 183, 255), 
+        rgb(60, 183, 255), rgb(50, 183, 255), rgb(40, 183, 255), rgb(30, 183, 255), rgb(20, 183, 255));}
+
+    4%, 18%, 32%, 46%, 60%, 74%, 88%{background: radial-gradient(rgb(20, 183, 255), rgb(10, 183, 255), rgb(0, 183, 255),
+        rgb(130, 183, 255), rgb(120, 183, 255), rgb(110, 183, 255), rgb(100, 183, 255),rgb(90, 183, 255), rgb(80, 183, 255), 
+        rgb(70, 183, 255), rgb(60, 183, 255), rgb(50, 183, 255), rgb(40, 183, 255), rgb(30, 183, 255));}
+
+    5%, 19%, 33%, 47%, 61%, 75%, 89%{background: radial-gradient(rgb(30, 183, 255),rgb(20, 183, 255), rgb(10, 183, 255), 
+        rgb(0, 183, 255),rgb(130, 183, 255), rgb(120, 183, 255), rgb(110, 183, 255), rgb(100, 183, 255),rgb(90, 183, 255), 
+        rgb(80, 183, 255), rgb(70, 183, 255), rgb(60, 183, 255), rgb(50, 183, 255), rgb(40, 183, 255));}
+
+    6%, 20%, 34%, 48%, 62%, 76%, 90%{background: radial-gradient( rgb(40, 183, 255), rgb(30, 183, 255),rgb(20, 183, 255), 
+        rgb(10, 183, 255),rgb(0, 183, 255), rgb(130, 183, 255), rgb(120, 183, 255), rgb(110, 183, 255), rgb(100, 183, 255),
+        rgb(90, 183, 255), rgb(80, 183, 255), rgb(70, 183, 255), rgb(60, 183, 255), rgb(50, 183, 255));}
+
+    7%, 21%, 35%, 49%, 63%, 77%, 91%{background: radial-gradient(rgb(50, 183, 255), rgb(40, 183, 255), rgb(30, 183, 255),
+        rgb(20, 183, 255), rgb(10, 183, 255), rgb(0, 183, 255), rgb(130, 183, 255), rgb(120, 183, 255), rgb(110, 183, 255), 
+        rgb(100, 183, 255),rgb(90, 183, 255), rgb(80, 183, 255), rgb(70, 183, 255), rgb(60, 183, 255));}
+
+    8%, 22%, 36%, 50%, 64%, 78%, 92%{background: radial-gradient(rgb(60, 183, 255), rgb(50, 183, 255), rgb(40, 183, 255), 
+        rgb(30, 183, 255),rgb(20, 183, 255), rgb(10, 183, 255), rgb(0, 183, 255), rgb(130, 183, 255), rgb(120, 183, 255), 
+        rgb(110, 183, 255), rgb(100, 183, 255),rgb(90, 183, 255), rgb(80, 183, 255), rgb(70, 183, 255));}
+
+    9%, 23%, 37%, 51%, 65%, 79%, 93%{background: radial-gradient(rgb(70, 183, 255), rgb(60, 183, 255), rgb(50, 183, 255), 
+        rgb(40, 183, 255), rgb(30, 183, 255), rgb(20, 183, 255), rgb(10, 183, 255), rgb(0, 183, 255), rgb(130, 183, 255), 
+        rgb(120, 183, 255), rgb(110, 183, 255), rgb(100, 183, 255),rgb(90, 183, 255), rgb(80, 183, 255));}
+
+    10%, 24%, 38%, 52%, 66%, 80%, 94%{background: radial-gradient(rgb(80, 183, 255), rgb(70, 183, 255), rgb(60, 183, 255), 
+        rgb(50, 183, 255), rgb(40, 183, 255), rgb(30, 183, 255), rgb(20, 183, 255), rgb(10, 183, 255), rgb(0, 183, 255), 
+        rgb(130, 183, 255), rgb(120, 183, 255), rgb(110, 183, 255), rgb(100, 183, 255),rgb(90, 183, 255));}
+
+    11%, 25%, 39%, 53%, 67%, 81%, 95%{background: radial-gradient(rgb(90, 183, 255), rgb(80, 183, 255), rgb(70, 183, 255), 
+        rgb(60, 183, 255), rgb(50, 183, 255), rgb(40, 183, 255), rgb(30, 183, 255), rgb(20, 183, 255), rgb(10, 183, 255), 
+        rgb(0, 183, 255), rgb(130, 183, 255), rgb(120, 183, 255), rgb(110, 183, 255), rgb(100, 183, 255));}
+
+    12%, 26%, 40%, 54%, 68%, 82%, 96%{background: radial-gradient(rgb(100, 183, 255), rgb(90, 183, 255), rgb(80, 183, 255), 
+        rgb(70, 183, 255), rgb(60, 183, 255), rgb(50, 183, 255), rgb(40, 183, 255), rgb(30, 183, 255), rgb(20, 183, 255), 
+        rgb(10, 183, 255), rgb(0, 183, 255), rgb(130, 183, 255), rgb(120, 183, 255), rgb(110, 183, 255));}
+
+    13%, 27%, 41%, 55%, 69%, 83%, 97%{background: radial-gradient(rgb(110, 183, 255), rgb(100, 183, 255), rgb(90, 183, 255), 
+        rgb(80, 183, 255), rgb(70, 183, 255), rgb(60, 183, 255), rgb(50, 183, 255), rgb(40, 183, 255), rgb(30, 183, 255), 
+        rgb(20, 183, 255), rgb(10, 183, 255), rgb(0, 183, 255), rgb(130, 183, 255), rgb(120, 183, 255));}
+
+    14%, 28%, 42%, 56%, 70%, 84%, 98%{background: radial-gradient(rgb(120, 183, 255), rgb(110, 183, 255), rgb(100, 183, 255), 
+        rgb(90, 183, 255), rgb(80, 183, 255), rgb(70, 183, 255), rgb(60, 183, 255), rgb(50, 183, 255), rgb(40, 183, 255), 
+        rgb(30, 183, 255), rgb(20, 183, 255), rgb(10, 183, 255), rgb(0, 183, 255), rgb(130, 183, 255));}
+}
+
+@keyframes ripple2{
+    14%, 28%, 42%, 56%, 70%, 84%, 98%{background: radial-gradient(rgb(130, 183, 255), rgb(120, 183, 255), rgb(110, 183, 255),
+        rgb(100, 183, 255),rgb(90, 183, 255), rgb(80, 183, 255), rgb(70, 183, 255), rgb(60, 183, 255), rgb(50, 183, 255), 
+        rgb(40, 183, 255), rgb(30, 183, 255), rgb(20, 183, 255), rgb(10, 183, 255), rgb(0, 183, 255));}
+    13%, 27%, 41%, 55%, 69%, 83%, 97%{background: radial-gradient(rgb(0, 183, 255),rgb(130, 183, 255), rgb(120, 183, 255), 
+        rgb(110, 183, 255), rgb(100, 183, 255),rgb(90, 183, 255), rgb(80, 183, 255), rgb(70, 183, 255), rgb(60, 183, 255), 
+        rgb(50, 183, 255), rgb(40, 183, 255), rgb(30, 183, 255), rgb(20, 183, 255), rgb(10, 183, 255));}
+    12%, 26%, 40%, 54%, 68%, 82%, 96%{background: radial-gradient(rgb(10, 183, 255), rgb(0, 183, 255),rgb(130, 183, 255), 
+        rgb(120, 183, 255), rgb(110, 183, 255), rgb(100, 183, 255),rgb(90, 183, 255), rgb(80, 183, 255), rgb(70, 183, 255), 
+        rgb(60, 183, 255), rgb(50, 183, 255), rgb(40, 183, 255), rgb(30, 183, 255), rgb(20, 183, 255));}
+    11%, 25%, 39%, 53%, 67%, 81%, 95%{background: radial-gradient(rgb(20, 183, 255), rgb(10, 183, 255), rgb(0, 183, 255),
+        rgb(130, 183, 255), rgb(120, 183, 255), rgb(110, 183, 255), rgb(100, 183, 255),rgb(90, 183, 255), rgb(80, 183, 255), 
+        rgb(70, 183, 255), rgb(60, 183, 255), rgb(50, 183, 255), rgb(40, 183, 255), rgb(30, 183, 255));}
+    10%, 24%, 38%, 52%, 66%, 80%, 94%{background: radial-gradient(rgb(30, 183, 255),rgb(20, 183, 255), rgb(10, 183, 255), 
+        rgb(0, 183, 255),rgb(130, 183, 255), rgb(120, 183, 255), rgb(110, 183, 255), rgb(100, 183, 255),rgb(90, 183, 255), 
+        rgb(80, 183, 255), rgb(70, 183, 255), rgb(60, 183, 255), rgb(50, 183, 255), rgb(40, 183, 255));}
+    9%, 23%, 37%, 51%, 65%, 79%, 93%{background: radial-gradient( rgb(40, 183, 255), rgb(30, 183, 255),rgb(20, 183, 255), 
+        rgb(10, 183, 255),rgb(0, 183, 255), rgb(130, 183, 255), rgb(120, 183, 255), rgb(110, 183, 255), rgb(100, 183, 255),
+        rgb(90, 183, 255), rgb(80, 183, 255), rgb(70, 183, 255), rgb(60, 183, 255), rgb(50, 183, 255));}
+    8%, 22%, 36%, 50%, 64%, 78%, 92%{background: radial-gradient(rgb(50, 183, 255), rgb(40, 183, 255), rgb(30, 183, 255),
+        rgb(20, 183, 255), rgb(10, 183, 255), rgb(0, 183, 255), rgb(130, 183, 255), rgb(120, 183, 255), rgb(110, 183, 255), 
+        rgb(100, 183, 255),rgb(90, 183, 255), rgb(80, 183, 255), rgb(70, 183, 255), rgb(60, 183, 255));}
+    7%, 21%, 35%, 49%, 63%, 77%, 91%{background: radial-gradient(rgb(60, 183, 255), rgb(50, 183, 255), rgb(40, 183, 255), 
+        rgb(30, 183, 255),rgb(20, 183, 255), rgb(10, 183, 255), rgb(0, 183, 255), rgb(130, 183, 255), rgb(120, 183, 255), 
+        rgb(110, 183, 255), rgb(100, 183, 255),rgb(90, 183, 255), rgb(80, 183, 255), rgb(70, 183, 255));}
+    6%, 20%, 34%, 48%, 62%, 76%, 90%{background: radial-gradient(rgb(70, 183, 255), rgb(60, 183, 255), rgb(50, 183, 255), 
+        rgb(40, 183, 255), rgb(30, 183, 255), rgb(20, 183, 255), rgb(10, 183, 255), rgb(0, 183, 255), rgb(130, 183, 255), 
+        rgb(120, 183, 255), rgb(110, 183, 255), rgb(100, 183, 255),rgb(90, 183, 255), rgb(80, 183, 255));}
+    5%, 19%, 33%, 47%, 61%, 75%, 89%{background: radial-gradient(rgb(80, 183, 255), rgb(70, 183, 255), rgb(60, 183, 255), 
+        rgb(50, 183, 255), rgb(40, 183, 255), rgb(30, 183, 255), rgb(20, 183, 255), rgb(10, 183, 255), rgb(0, 183, 255), 
+        rgb(130, 183, 255), rgb(120, 183, 255), rgb(110, 183, 255), rgb(100, 183, 255),rgb(90, 183, 255));}
+    4%, 18%, 32%, 46%, 60%, 74%, 88%{background: radial-gradient(rgb(90, 183, 255), rgb(80, 183, 255), rgb(70, 183, 255), 
+        rgb(60, 183, 255), rgb(50, 183, 255), rgb(40, 183, 255), rgb(30, 183, 255), rgb(20, 183, 255), rgb(10, 183, 255), 
+        rgb(0, 183, 255), rgb(130, 183, 255), rgb(120, 183, 255), rgb(110, 183, 255), rgb(100, 183, 255));}
+    3%, 17%, 31%, 45%, 59%, 73%, 87%{background: radial-gradient(rgb(100, 183, 255), rgb(90, 183, 255), rgb(80, 183, 255), 
+        rgb(70, 183, 255), rgb(60, 183, 255), rgb(50, 183, 255), rgb(40, 183, 255), rgb(30, 183, 255), rgb(20, 183, 255), 
+        rgb(10, 183, 255), rgb(0, 183, 255), rgb(130, 183, 255), rgb(120, 183, 255), rgb(110, 183, 255));}
+    2%, 16%, 30%, 44%, 58%, 72%, 86%{background: radial-gradient(rgb(110, 183, 255), rgb(100, 183, 255), rgb(90, 183, 255), 
+        rgb(80, 183, 255), rgb(70, 183, 255), rgb(60, 183, 255), rgb(50, 183, 255), rgb(40, 183, 255), rgb(30, 183, 255), 
+        rgb(20, 183, 255), rgb(10, 183, 255), rgb(0, 183, 255), rgb(130, 183, 255), rgb(120, 183, 255));}
+    1%, 15%, 29%, 43%, 57%, 71%, 85%{background: radial-gradient(rgb(120, 183, 255), rgb(110, 183, 255), rgb(100, 183, 255), 
+        rgb(90, 183, 255), rgb(80, 183, 255), rgb(70, 183, 255), rgb(60, 183, 255), rgb(50, 183, 255), rgb(40, 183, 255), 
+        rgb(30, 183, 255), rgb(20, 183, 255), rgb(10, 183, 255), rgb(0, 183, 255), rgb(130, 183, 255));}
+}
+
+@keyframes ripple3{
+    1%{background: radial-gradient(rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255), rgb(207, 241, 255));}
+    2%{background: radial-gradient(rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255));}
+    3%{background: radial-gradient(rgb(187, 224, 255),rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255));}
+    4%{background: radial-gradient(rgb(127, 193, 255),rgb(187, 224, 255),rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255));}
+    5%{background: radial-gradient(rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255), rgb(207, 241, 255), rgb(0, 135, 224));}
+    6%{background: radial-gradient(rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255), rgb(207, 241, 255));}
+    7%{background: radial-gradient(rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255));}
+    8%{background: radial-gradient(rgb(187, 224, 255),rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255));}
+    9%{background: radial-gradient(rgb(127, 193, 255),rgb(187, 224, 255),rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255));}
+    10%{background: radial-gradient(rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255), rgb(207, 241, 255), rgb(0, 135, 224));}
+    11%{background: radial-gradient(rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255), rgb(207, 241, 255));}
+    12%{background: radial-gradient(rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255));}
+    13%{background: radial-gradient(rgb(187, 224, 255),rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255));}
+    14%{background: radial-gradient(rgb(127, 193, 255),rgb(187, 224, 255),rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255));}
+    15%{background: radial-gradient(rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255), rgb(207, 241, 255), rgb(0, 135, 224));}
+    16%{background: radial-gradient(rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255), rgb(207, 241, 255));}
+    17%{background: radial-gradient(rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255));}
+    18%{background: radial-gradient(rgb(187, 224, 255),rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255));}
+    19%{background: radial-gradient(rgb(127, 193, 255),rgb(187, 224, 255),rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255));}
+    20%{background: radial-gradient(rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255), rgb(207, 241, 255), rgb(0, 135, 224));}
+    21%{background: radial-gradient(rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255), rgb(207, 241, 255));}
+    22%{background: radial-gradient(rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255));}
+    23%{background: radial-gradient(rgb(187, 224, 255),rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255));}
+    24%{background: radial-gradient(rgb(127, 193, 255),rgb(187, 224, 255),rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255));}
+    25%{background: radial-gradient(rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255), rgb(207, 241, 255), rgb(0, 135, 224));}
+    26%{background: radial-gradient(rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255), rgb(207, 241, 255));}
+    27%{background: radial-gradient(rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255));}
+    28%{background: radial-gradient(rgb(187, 224, 255),rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255));}
+    29%{background: radial-gradient(rgb(127, 193, 255),rgb(187, 224, 255),rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255));}
+    30%{background: radial-gradient(rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255), rgb(207, 241, 255), rgb(0, 135, 224));}
+    31%{background: radial-gradient(rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255), rgb(207, 241, 255));}
+    32%{background: radial-gradient(rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255));}
+    33%{background: radial-gradient(rgb(187, 224, 255),rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255));}
+    34%{background: radial-gradient(rgb(127, 193, 255),rgb(187, 224, 255),rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255));}
+    35%{background: radial-gradient(rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255), rgb(207, 241, 255), rgb(0, 135, 224));}
+    36%{background: radial-gradient(rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255), rgb(207, 241, 255));}
+    37%{background: radial-gradient(rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255));}
+    38%{background: radial-gradient(rgb(187, 224, 255),rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255));}
+    39%{background: radial-gradient(rgb(127, 193, 255),rgb(187, 224, 255),rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255));}
+    40%{background: radial-gradient(rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255), rgb(207, 241, 255), rgb(0, 135, 224));}
+    41%{background: radial-gradient(rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255), rgb(207, 241, 255));}
+    42%{background: radial-gradient(rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255));}
+    43%{background: radial-gradient(rgb(187, 224, 255),rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255));}
+    44%{background: radial-gradient(rgb(127, 193, 255),rgb(187, 224, 255),rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255));}
+    45%{background: radial-gradient(rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255), rgb(207, 241, 255), rgb(0, 135, 224));}
+    46%{background: radial-gradient(rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255), rgb(207, 241, 255));}
+    47%{background: radial-gradient(rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255));}
+    48%{background: radial-gradient(rgb(187, 224, 255),rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255));}
+    49%{background: radial-gradient(rgb(127, 193, 255),rgb(187, 224, 255),rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255));}
+    50%{background: radial-gradient(rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255), rgb(207, 241, 255), rgb(0, 135, 224));}
+    51%{background: radial-gradient(rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255), rgb(207, 241, 255));}
+    52%{background: radial-gradient(rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255));}
+    53%{background: radial-gradient(rgb(187, 224, 255),rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255));}
+    54%{background: radial-gradient(rgb(127, 193, 255),rgb(187, 224, 255),rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255));}
+    55%{background: radial-gradient(rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255), rgb(207, 241, 255), rgb(0, 135, 224));}
+    56%{background: radial-gradient(rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255), rgb(207, 241, 255));}
+    57%{background: radial-gradient(rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255));}
+    58%{background: radial-gradient(rgb(187, 224, 255),rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255));}
+    59%{background: radial-gradient(rgb(127, 193, 255),rgb(187, 224, 255),rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255));}
+    60%{background: radial-gradient(rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255), rgb(207, 241, 255), rgb(0, 135, 224));}
+    61%{background: radial-gradient(rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255), rgb(207, 241, 255));}
+    62%{background: radial-gradient(rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255));}
+    63%{background: radial-gradient(rgb(187, 224, 255),rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255));}
+    64%{background: radial-gradient(rgb(127, 193, 255),rgb(187, 224, 255),rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255));}
+    65%{background: radial-gradient(rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255), rgb(207, 241, 255), rgb(0, 135, 224));}
+    66%{background: radial-gradient(rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255), rgb(207, 241, 255));}
+    67%{background: radial-gradient(rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255));}
+    68%{background: radial-gradient(rgb(187, 224, 255),rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255));}
+    69%{background: radial-gradient(rgb(127, 193, 255),rgb(187, 224, 255),rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255));}
+    70%{background: radial-gradient(rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255), rgb(207, 241, 255), rgb(0, 135, 224));}
+    71%{background: radial-gradient(rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255), rgb(207, 241, 255));}
+    72%{background: radial-gradient(rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255));}
+    73%{background: radial-gradient(rgb(187, 224, 255),rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255));}
+    74%{background: radial-gradient(rgb(127, 193, 255),rgb(187, 224, 255),rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255));}
+    75%{background: radial-gradient(rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255), rgb(207, 241, 255), rgb(0, 135, 224));}
+    76%{background: radial-gradient(rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255), rgb(207, 241, 255));}
+    77%{background: radial-gradient(rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255));}
+    78%{background: radial-gradient(rgb(187, 224, 255),rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255));}
+    79%{background: radial-gradient(rgb(127, 193, 255),rgb(187, 224, 255),rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255));}
+    80%{background: radial-gradient(rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255), rgb(207, 241, 255), rgb(0, 135, 224));}
+    81%{background: radial-gradient(rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255), rgb(207, 241, 255));}
+    82%{background: radial-gradient(rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255));}
+    83%{background: radial-gradient(rgb(187, 224, 255),rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255));}
+    84%{background: radial-gradient(rgb(127, 193, 255),rgb(187, 224, 255),rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255));}
+    85%{background: radial-gradient(rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255), rgb(207, 241, 255), rgb(0, 135, 224));}
+    86%{background: radial-gradient(rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255), rgb(207, 241, 255));}
+    87%{background: radial-gradient(rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255));}
+    88%{background: radial-gradient(rgb(187, 224, 255),rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255));}
+    89%{background: radial-gradient(rgb(127, 193, 255),rgb(187, 224, 255),rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255));}
+    90%{background: radial-gradient(rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255), rgb(207, 241, 255), rgb(0, 135, 224));}
+    91%{background: radial-gradient(rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255), rgb(207, 241, 255));}
+    92%{background: radial-gradient(rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255));}
+    93%{background: radial-gradient(rgb(187, 224, 255),rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255));}
+    94%{background: radial-gradient(rgb(127, 193, 255),rgb(187, 224, 255),rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255));}
+    95%{background: radial-gradient(rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255), rgb(207, 241, 255), rgb(0, 135, 224));}
+    96%{background: radial-gradient(rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255), rgb(207, 241, 255));}
+    97%{background: radial-gradient(rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255));}
+    98%{background: radial-gradient(rgb(187, 224, 255),rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255),rgb(127, 193, 255));}
+    99%{background: radial-gradient(rgb(127, 193, 255),rgb(187, 224, 255),rgb(207, 241, 255), rgb(0, 135, 224),rgb(52, 174, 255));}
+    100%{background: radial-gradient(rgb(52, 174, 255),rgb(127, 193, 255), rgb(187, 224, 255), rgb(207, 241, 255), rgb(0, 135, 224));}
+ }
+ 
+ 
+
+html{
+    animation: rainbow infinite 10s forwards;
+    height: 100%;
+    background: radial-gradient(rgb(120, 183, 255), rgb(110, 183, 255), rgb(100, 183, 255), 
+    rgb(90, 183, 255), rgb(80, 183, 255), rgb(70, 183, 255), rgb(60, 183, 255), rgb(50, 183, 255), rgb(40, 183, 255), 
+    rgb(30, 183, 255), rgb(20, 183, 255), rgb(10, 183, 255), rgb(0, 183, 255), rgb(130, 183, 255));
+}
+h1{
+    animation: rainbow infinite s;
+    font-size: 3em
+}
+
+@keyframes rainbow{
+    5%, 35%, 65%, 95%{background: radial-gradient(red, orange, yellow, green, blue, purple,); }
+    10%, 40%, 70%, 100%{background: radial-gradient(orange, yellow, green, blue, purple, red); }
+    15%, 45%, 75%{background: radial-gradient(yellow, green, blue, purple, red, orange); }
+    20%, 50%, 80%{background: radial-gradient(green, blue, purple, red, orange, yellow); }
+    25%, 55%, 85%{background: radial-gradient(blue, purple, red, orange, yellow, green); }
+    30%, 60%, 90%{background: radial-gradient(purple, red, orange, yellow, green, blue); }
+ }
+ 
